@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-header input:focus {
+    outline: none;
+}
+
+.todo-header input {
+    border: none;
+    padding: 0.5em 8em 0em 0em;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+.todo {
+    color: black;
+    display: flex;
+    gap: 1.5em;
+    font-size: large;
+    font-weight: 300;
+
+}
+
+.todo p {
+    padding: 15px 0;
+}
+
+.todo-list {
+    margin-top: 1.5em;
+}
+
+.todo-footer {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
