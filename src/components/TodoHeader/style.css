@@ -20,6 +20,9 @@
     gap: 1.5em;
     font-size: large;
     font-weight: 300;
+    align-items: center;
+
+
 
 }
 
@@ -29,6 +32,7 @@
 
 .todo-list {
     margin-top: 1.5em;
+
 }
 
 .todo-footer {
@@ -43,3 +47,8 @@
     -webkit-text-decoration-line: line-through; /* Safari */
     text-decoration-line: line-through; 
 }
+#notDone {
+    text-decoration-line: none; 
+
+}
+
