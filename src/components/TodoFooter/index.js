@@ -1,10 +1,10 @@
+import { TODOS } from "../../data/todos"
+export default function TodoFooter (key) {
+    const notCompleted = TODOS.filter(todo => todo.isCompleted === false)
 
-export default function TodoFooter ({todo}) {
-    // const notCompleted = todo.filter(todo => todo.isCompleted === false)
-    // console.log(todo)
     return (
         <div className="todo-footer">
-            {/* <p>{notCompleted} task left!</p> */}
+            <p>{notCompleted.length} task left!</p>
             <p>MindX todolist</p>
         </div>
     )
